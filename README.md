@@ -17,14 +17,18 @@ This tutorial explains the process of unlocking a locked user account and re-ena
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Account Lockout and Unlock/Account Disable and Re-Enable Process</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Lockout the client account by using the wrong password 10+ times on the Client-VM
+- Login to the Domain Controller VM and open Active Directory Users and Computers
+- Unlock the Account and Reset the Password
+- Login with new password on Client-VM and observe successs
+- Open DC-VM again and disable the same account you just unlocked
+- Attempt to login on the Client-VM and observe that it is locked
+- Reopen the DC-VM and Re-enable the account
+- Login to Client-VM with same account and observe success
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Account Lockout and Unlock/Account Disable and Re-Enable Steps</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
