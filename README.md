@@ -68,10 +68,37 @@ Now that the account has been unlocked, go back to the client VM login and attem
 <br />
 
 <p>
-<img width="1324" height="817" alt="image" src="https://github.com/user-attachments/assets/4d4b0776-8fce-423a-9396-1f73ca4be5dd" />
+<img width="492" height="545" alt="image" src="https://github.com/user-attachments/assets/74cc8c33-a8a7-4cfd-b2f6-8f0f6e1bf98f" />
+
+</p>
+<p>
+Open the Domain Controller VM where AD Users and Computers should still be open, along with the find users window. Right click the client account and select "disable account". 
+</p>
+<br />
+
+<p>
+<img width="241" height="251" alt="image" src="https://github.com/user-attachments/assets/20543992-0053-4b98-8296-1c236713b023" />
   
 </p>
 <p>
-Now that the account has been unlocked, go back to the client VM login and attempt to login with the correct password. Observe the success now that the account has been unlocked. 
+Go to the client VM and logout then attempt to log back in. You will observe that the account is now disabled and login is not possible. 
+</p>
+<br />
+
+<p>
+<img width="509" height="538" alt="image" src="https://github.com/user-attachments/assets/df1f1b79-9df6-4a16-b679-a5541c8d2d1c" />
+
+</p>
+<p>
+Go back to the Domain Controller VM and re-enable the account from the same window we had open previously. 
+</p>
+<br />
+
+<p>
+<img width="689" height="479" alt="image" src="https://github.com/user-attachments/assets/34677f2a-0c29-4ac4-8131-88d758265d4b" />
+
+</p>
+<p>
+Proceed to the Client-side VM and attempt login. The system should let you in this time now that the account has been re-enabled. 
 </p>
 <br />
