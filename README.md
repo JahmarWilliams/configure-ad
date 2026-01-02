@@ -31,10 +31,11 @@ This tutorial explains the process of unlocking a locked user account and re-ena
 <h2>Account Lockout and Unlock/Account Disable and Re-Enable Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="241" height="291" alt="image" src="https://github.com/user-attachments/assets/145c11ae-d2f6-4cec-844a-6e753937bca0" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open remote desktop and attempt to login to the client-side Virtual Machine running Windows 10. Be sure to use the wrong password and attempt the login 10+ times until you get the notification that the account has been locked. 
 </p>
 <br />
 
